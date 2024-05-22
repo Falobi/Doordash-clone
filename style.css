@@ -1,0 +1,641 @@
+@import url("./font.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: font-regular, Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  width: 100%;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.container {
+  padding: 0px 16px;
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+.logo img {
+  width: 209px;
+  height: auto;
+  position: absolute;
+  left: 5%;
+  top: 25px;
+}
+.header {
+  background-image: url("img/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 60px;
+  background-color: white;
+  z-index: 2;
+}
+.nav-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+.btn {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.click {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+h4 {
+  font-weight: 300;
+  font-family: font-heavy, sans-serif;
+  line-height: 40px;
+  font-size: 34px;
+  color: black;
+  word-spacing: normal;
+  margin-bottom: 20px;
+}
+h5 {
+  font-weight: 200;
+  font-family: font-heavy;
+  font-size: 24px;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.rest {
+  color: white;
+  font-size: 40px;
+  line-height: 44px;
+  white-space: nowrap;
+  font-family: font-heavy;
+}
+.header-cta {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+}
+
+.add {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 150px 15px 10px;
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 150px;
+  display: block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.sign {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  margin-left: 200px;
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.section {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.section img {
+  width: 150px;
+  height: 300px;
+}
+
+.section a {
+  text-decoration: none;
+  color: red;
+  font-family: font-heavy;
+  font-weight: 200;
+}
+.pickup {
+  position: absolute;
+  top: 20px;
+  width: 30%;
+  left: 0;
+}
+.pickup-text {
+  position: absolute;
+  width: 30%;
+  left: 0;
+  top: 250px;
+}
+
+.partner {
+  position: absolute;
+  top: 30px;
+  width: 30%;
+  left: 40%;
+}
+.partner-text {
+  position: absolute;
+  width: 30%;
+  left: 40%;
+  top: 250px;
+}
+.mobile {
+  position: absolute;
+  top: 30px;
+  width: 30%;
+  left: 70%;
+}
+
+.mobile-text {
+  position: absolute;
+  width: 30%;
+  left: 70%;
+  top: 250px;
+}
+
+.mid-section {
+  position: relative;
+  width: 100%;
+  height: 620px;
+  padding-top: 100px;
+}
+.note {
+  position: absolute;
+  max-width: 35%;
+  margin-left: 0;
+  top: 100px;
+}
+
+.mid-section button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.pizza {
+  position: absolute;
+  max-width: 60%;
+  left: 45%;
+  top: 30px;
+}
+.mid-page {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color: rgb(254, 241, 238);
+  padding: 100px 0px;
+}
+
+.drinks {
+  position: absolute;
+  max-width: 55%;
+  left: 0;
+}
+.aside {
+  position: absolute;
+  max-width: 38%;
+  left: 66%;
+  top: 60px;
+}
+
+.mid-page button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+.grocery {
+  background-image: url(img/grocery_desktop.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin-top: 10px;
+  width: 100%;
+  height: 550px;
+}
+
+.grocery-cta {
+  background-color: black;
+  opacity: 0.7;
+  height: 550px;
+}
+
+.grocery h4 {
+  font-weight: 600;
+  font-size: 44px;
+  color: white;
+  line-height: 44px;
+  word-spacing: normal;
+  padding-top: 120px;
+}
+.grocery h5 {
+  font-weight: 300;
+  font-size: 26px;
+  color: white;
+  padding-top: 6px;
+}
+.grocery p {
+  font-weight: 200;
+  font-size: 18px;
+  color: white;
+  padding-bottom: 10px;
+}
+.grocery-btn {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.store {
+  position: relative;
+  width: 100%;
+  height: 550px;
+  padding: 100px 0;
+}
+
+.store h4 {
+  font-family: font-heavy;
+  font-weight: 600;
+  font-size: 32px;
+  color: black;
+  line-height: 36px;
+  word-spacing: normal;
+  padding-top: 120px;
+}
+
+.store p {
+  font-size: 14px;
+  color: black;
+  padding-bottom: 10px;
+}
+
+.store button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 6px 14px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.snack {
+  position: absolute;
+  max-width: 30%;
+  top: 10px;
+  margin-left: 0;
+}
+
+.vegies {
+  position: absolute;
+  max-width: 50%;
+  left: 45%;
+}
+
+.pack {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  background-color: rgb(254, 241, 238);
+}
+
+.pack h3 {
+  font-family: font-heavy;
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 80px;
+  line-height: 44px;
+  word-spacing: normal;
+}
+.pack h4 {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  line-height: 40px;
+  word-spacing: normal;
+}
+
+.card {
+  position: absolute;
+  max-width: 45%;
+  top: 250px;
+  margin-left: 0;
+}
+
+.flower {
+  position: absolute;
+  max-width: 45%;
+  top: 250px;
+  left: 50%;
+}
+.pack button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 6px 14px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 50px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.pack-bar {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  padding: 100px;
+  background-color: rgb(254, 241, 238);
+}
+
+.pack-bar h4 {
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  line-height: 40px;
+  word-spacing: normal;
+}
+.minibar {
+  position: absolute;
+  max-width: 45%;
+  top: 10px;
+  margin-left: 0;
+}
+
+.pet {
+  position: absolute;
+  max-width: 45%;
+  top: 10px;
+  left: 50%;
+}
+
+.pack-bar button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 6px 14px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 50px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.special {
+  margin-top: 16px;
+  margin-left: 30px;
+}
+
+.shop {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+.shop h3 {
+  font-family: font-heavy;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 70px;
+  line-height: 44px;
+  word-spacing: normal;
+}
+.dashapp {
+  position: absolute;
+  max-width: 40%;
+  padding-top: 170px;
+  margin-left: 0;
+}
+
+.mart {
+  position: absolute;
+  max-width: 50%;
+  top: 250px;
+  left: 50%;
+}
+
+.shop button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  text-align: center;
+  font-weight: 200;
+  font-size: 20px;
+  margin-top: 30px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.service {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+.service button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 6px 8px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.provider {
+  position: absolute;
+  max-width: 55%;
+  padding-top: 150px;
+  margin-left: 0;
+}
+
+.grow {
+  position: absolute;
+  max-width: 40%;
+  top: 250px;
+  left: 60%;
+}
+
+.location h4 {
+  text-align: center;
+}
+table {
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+th {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+
+tr,
+td {
+  text-align: center;
+  font-weight: 300;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.last {
+  background-color: black;
+  color: white;
+}
+.last h4 {
+  color: white;
+  font-size: 14px;
+  font-weight: 70;
+  padding-top: 100px;
+  margin-left: 70px;
+}
+.last ul {
+  list-style: none;
+}
+
+.last ul li {
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 50;
+}
+.last li a {
+  text-decoration: none;
+  color: white;
+}
+
+.last-1 {
+  position: relative;
+  width: 100%;
+  height: 250px;
+}
+
+.foot-1 {
+  position: absolute;
+  left: 5%;
+  margin-top: 30px;
+}
+.foot-2 {
+  position: absolute;
+  left: 25%;
+  margin-top: 30px;
+}
+.foot-3 {
+  position: absolute;
+  left: 45%;
+  margin-top: 30px;
+}
+.foot-4 {
+  position: absolute;
+  left: 65%;
+  margin-top: 30px;
+}
+
+.info {
+  position: relative;
+  width: 100%;
+  height: 450px;
+}
+.info-1 {
+  position: absolute;
+  left: 5%;
+  margin-top: 30px;
+}
+
+.info-2 {
+  position: absolute;
+  left: 25%;
+  margin-top: 30px;
+}
+.info-3 {
+  position: absolute;
+  left: 45%;
+  margin-top: 30px;
+}
+.info h4 {
+  color: white;
+  font-size: 14px;
+  font-weight: 70;
+  padding-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 0;
+}
+
+.closing ul {
+  padding: 40px;
+  margin: 10px;
+  background-color: black;
+  height: 100px;
+}
+.closing li {
+  float: left;
+}
+.closing li a {
+  font-size: 12px;
+  font-weight: 40;
+}

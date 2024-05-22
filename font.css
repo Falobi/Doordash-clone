@@ -1,0 +1,9 @@
+@font-face {
+  font-family: font-regular;
+  src: url("/TT-Norms-Fonts/TTNorms-Regular.otf");
+}
+
+@font-face {
+  font-family: font-heavy;
+  src: url("/TT-Norms-Fonts/TTNorms-Bold.otf");
+}
